@@ -1,0 +1,141 @@
+1)To view what's written in a file.
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ cat 1.txt
+hello
+and 
+welcome to devops
+
+2)To change the access permissions of files.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ chmod +rwx devops.txt
+
+
+
+3)To check which commands you have run till now.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ history
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt update
+    4  pwd
+    5  ls
+    6  cd Devops Tuturial
+    7  cd DevopsTuturial
+    8  cd Devops_Tuturial
+    9  cd 'Devops Tuturial'
+   10  touch 1.txt
+   11  cd
+   12  cd 'Devops Tuturial'
+   13  ls
+   14  pwd
+   15  mkdir -p a/b/c/d
+   16  ls
+   17  ./ autorun.sh 
+   18  ./autorun.sh 
+   19  ls
+   20  cd ..
+   21  ls
+   22  touch 1.txt
+   23  vim 1.txt
+   24  sudo apt update
+   25  sudo apt install vim
+   26  vim 1.txt
+   27  cat 1.txt
+   28  history
+
+4)To remove a directory/ Folder.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ dir
+1.txt  Folder1
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ rmdir Folder1
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ dir
+1.txt
+
+
+5)To create a fruits.txt file and to view the content.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ vim fruits.txt
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ cat fruits.txt
+aplle
+mango
+pineapple
+
+6)Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ touch devops.txt
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ vim devops.txt
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ cat devops.txt
+Apple
+Mango
+Banana
+Cherry
+Kiwi
+Orange
+Guava
+
+7)To Show only top three fruits from the file.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ head -n 3 devops.txt
+Apple
+Mango
+Banana
+
+
+8)To Show only bottom three fruits from the file.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ tail -3 devops.txt
+Kiwi
+Orange
+Guava
+
+
+
+9)To create another file Colors.txt and to view the content.
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ vim Colors.txt
+
+
+10)Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ vim Colors.txt
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ cat Colors.txt
+Red
+Pink
+White
+Black
+Blue
+Orange
+Purple
+Grey
+
+11)To find the difference between fruits.txt and Colors.txt file.
+
+sumyaa@sumeetPC:~/Devops Tuturial/Day3$ diff fruits.txt Colors.txt
+1,3c1,9
+< aplle
+< mango
+< pineapple
+---
+> Red
+> Pink
+> White
+> Black
+> Blue
+> Orange
+> Purple
+> Grey
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
